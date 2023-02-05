@@ -4,7 +4,7 @@ const express = require("express");
 const socketio = require("socket.io");
 const formatMessage = require("./utils/messages");
 // const createAdapter = require("@socket.io/redis-adapter").createAdapter;
-const{userJoin,getCurrentUser,userLeave,getRoomUsers}=require('./utils/Users')
+const{userJoin,getCurrentUser,userLeave,getRoomUsers}=require('./utils/users')
 // const redis = require("redis");
 // require("dotenv").config();
 // const { createClient } = redis;

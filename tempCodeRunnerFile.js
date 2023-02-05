@@ -1,0 +1,1 @@
+const createAdapter = require("@socket.io/redis-adapter").createAdapter;
